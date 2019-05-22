@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TrikoderProjekt</string>
+    <string name="noData">*No data*</string>
+    <string name="somethingWrong">Something went wrong!</string>
+    <string name="type">Type:</string>
+    <string name="id">ID:</string>
+    <string name="amount">Amount:</string>
+    <string name="remark">Remark:</string>
+    <string name="name">Name:</string>
+    <string name="date">Date:</string>
+    <string name="category">Category:</string>
+    <string name="new_entry">New Entry</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail_adress">E-mail adress</string>
+    <string name="no_data">- no data -</string>
+
+</resources>
