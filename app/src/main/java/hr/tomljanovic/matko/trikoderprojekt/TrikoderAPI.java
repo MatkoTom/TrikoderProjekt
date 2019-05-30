@@ -9,12 +9,12 @@ import retrofit2.http.Path;
 
 public interface TrikoderAPI {
 
-    @GET("api/public/spendings")
+    @GET("api/public/spendings")   // All spending entities
     Call<Feed> getFeed();
 
-    @GET("api/public/spendings/{id}")
+    @GET("api/public/spendings/{id}")  // Single spending entity
     Call<SingleFeed> getSingleFeed(@Path("id") int idUser);
 
-    @GET("api/public/spending-categories/{id}")
+    @GET("api/public/spending-categories/{id}")  // Categories
     Call<SingleCategory> getCategoryFeed(@Path("id") int idCategory);
 }

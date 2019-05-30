@@ -1,2 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="category">Kategorija:</string>
+    <string name="date">Darum:</string>
+    <string name="e_mail_adress">E-mail adresa</string>
+    <string name="login">Prijava</string>
+    <string name="name">Ime:</string>
+    <string name="new_entry">Novi unos</string>
+    <string name="noData">*Nema podataka*</string>
+    <string name="no_data">- nema podataka -</string>
+    <string name="password">Zaporka</string>
+    <string name="remark">Napomena:</string>
+    <string name="somethingWrong">Nešto nije u redu!</string>
+    <string name="type">Tip:</string>
+    <string name="amount">Količina:</string>
+    <string name="coming_soon">Dolazi uskoro!</string>
+    <string name="welcome">Dobrodošli!</string>
+    <string name="enter_info">Molim unesite valjane podatke!</string>
+    <string name="invalid_mail">Neispravan e-mail!</string>
+</resources>

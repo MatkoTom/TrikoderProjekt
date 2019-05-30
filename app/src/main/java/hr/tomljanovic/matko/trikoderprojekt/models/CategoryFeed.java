@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import hr.tomljanovic.matko.trikoderprojekt.models.data.CategoryData;
 
 
-public class CategoryFeed {
+public class CategoryFeed {  // Feed information for categories
 
     @SerializedName("jsonapi")
     @Expose

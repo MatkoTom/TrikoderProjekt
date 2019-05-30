@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import hr.tomljanovic.matko.trikoderprojekt.models.data.Data;
 
 
-public class SingleFeed {
+public class SingleFeed {   // Feed information for a single user
 
     @SerializedName("jsonapi")
     @Expose

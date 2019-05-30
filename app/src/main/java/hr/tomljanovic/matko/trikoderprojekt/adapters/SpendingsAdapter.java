@@ -12,8 +12,7 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import hr.tomljanovic.matko.trikoderprojekt.R;
 
-
-public class SpendingsAdapter extends ArrayAdapter<Spendings> {
+public class SpendingsAdapter extends ArrayAdapter<Spendings> {  //Create custom adapter to use with the list
 
     @BindView(R.id.tvSpender)
     TextView tvSpender;
@@ -24,7 +23,6 @@ public class SpendingsAdapter extends ArrayAdapter<Spendings> {
     public SpendingsAdapter(Context context, ArrayList<Spendings> users) {
         super(context, 0, users);
     }
-
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
@@ -41,6 +39,4 @@ public class SpendingsAdapter extends ArrayAdapter<Spendings> {
         tvAmount.setText(user.amount);
         return convertView;
     }
-
-
 }

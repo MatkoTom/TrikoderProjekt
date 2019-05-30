@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import hr.tomljanovic.matko.trikoderprojekt.models.data.Data;
 
 
-public class Feed {
+public class Feed {  // Feed for all spending entities
 
     @SerializedName("jsonapi")
     @Expose

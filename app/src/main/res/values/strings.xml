@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">TrikoderProjekt</string>
+    <string name="app_name" translatable="false">TrikoderProjekt</string>
     <string name="noData">*No data*</string>
     <string name="somethingWrong">Something went wrong!</string>
     <string name="type">Type:</string>
-    <string name="id">ID:</string>
+    <string name="id" translatable="false">ID:</string>
     <string name="amount">Amount:</string>
     <string name="remark">Remark:</string>
     <string name="name">Name:</string>
@@ -14,5 +14,10 @@
     <string name="password">Password</string>
     <string name="e_mail_adress">E-mail adress</string>
     <string name="no_data">- no data -</string>
+    <string name="welcome">Welcome!</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="enter_info">Please enter valid information!</string>
+    <string name="invalid_mail">Invalid e-mail!</string>
+
 
 </resources>

@@ -2,7 +2,7 @@ package hr.tomljanovic.matko.trikoderprojekt.adapters;
 
 public class Spendings {
 
-    public String spender;
+    public String spender;  // Data which will be send to the list
     public String amount;
     public int idUser;
 
